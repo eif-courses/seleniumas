@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'eif.viko.lt.sablonas'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-rc-1'
+    implementation 'io.cucumber:cucumber-java:6.11.0'
+    implementation 'io.github.prashant-ramcharan:courgette-jvm:5.12.0'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+    testImplementation 'io.cucumber:cucumber-junit:6.11.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+
+}
+
+test {
+    useJUnitPlatform()
+}
