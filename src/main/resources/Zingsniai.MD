@@ -35,6 +35,10 @@ https://github.com/mozilla/geckodriver/releases
 ### Scenarijų pavyzdziai Cucumber
 https://reports.cucumber.io/
 
+mokintis
+https://cucumber.io/docs/guides/10-minute-tutorial/
+
+
 
 #### Testavimo Pavyzdziai su papildoma biblioteka naudojant courgette-jvm 
 Startinis pvz. \
@@ -48,3 +52,5 @@ https://github.com/prashant-ramcharan/courgette-jvm
 
 #### kartais reikia prideti ir sia biblioteka
 #### testImplementation 'org.slf4j:slf4j-simple:2.0.0-alpha5'
+
+
