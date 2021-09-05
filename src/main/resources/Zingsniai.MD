@@ -42,3 +42,6 @@ https://github.com/h3xh4wk/gradle_selenium \
 Daugiau pvz. \
 https://github.com/prashant-ramcharan/courgette-jvm
 
+### COMMON PROBLEMS 
+
+![img_1.png](img_1.png)
