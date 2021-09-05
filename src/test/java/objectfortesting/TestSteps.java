@@ -36,7 +36,7 @@ public class TestSteps {
         if (driver == null) {
             FirefoxOptions options = new FirefoxOptions();
             options.addArguments("--headless");
-            driver = new FirefoxDriver(options);
+            driver = new FirefoxDriver();
         }
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
     }
@@ -45,6 +45,7 @@ public class TestSteps {
     public void tearDown() {
         if (driver!=null) {
             driver.close();
+            // JEIGU NAUDOJAME HEADLESS MODE uzkomentinam NEREIKIA sitos eilutes
             driver.quit();
         }
     }

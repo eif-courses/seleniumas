@@ -26,6 +26,7 @@ dependencies {
 
     // https://mvnrepository.com/artifact/io.github.prashant-ramcharan/courgette-jvm
     implementation 'io.github.prashant-ramcharan:courgette-jvm:5.12.0'
+    testImplementation 'org.slf4j:slf4j-simple:2.0.0-alpha5'
 
 }
 

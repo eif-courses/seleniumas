@@ -45,3 +45,6 @@ https://github.com/prashant-ramcharan/courgette-jvm
 ### COMMON PROBLEMS 
 
 ![img_1.png](img_1.png)
+
+#### kartais reikia prideti ir sia biblioteka
+#### testImplementation 'org.slf4j:slf4j-simple:2.0.0-alpha5'
